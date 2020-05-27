@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Corona Updates</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+        <link href = "stylesfinal.css" rel="stylesheet" />
+        <script src="app.js" defer></script>
+
+    </head>
+    <body>
+        <h1 class="title">COVID-19 Updates</h1>
+        <div id="data_block">
+            <h2 class="subtitle">The latest statistics regarding Corona Updates.</h2>
+            <form name="myForm" class="myform">
+                <h3>Country Name:</h3>
+                <input type="text" name="country_name" placeholder="Enter country name..." />
+                <button type="button" onclick="search()" class="button1">Search</button>
+            </form>
+            <div class="data-container">
+                <div class="country-covid-stats">
+                    <h4>Total Cases</h4>
+                    <h1 id="cases"></h1>
+                    <h4>No. of Deaths</h4>
+                    <h1 id="deaths"></h1>
+                    <h4>% of deaths</h4>
+                    <h1 id = "percent"></h1>
+                </div>
+                    <div class="location-stats">
+                    <h4>Country</h4>
+                    <h1 id="country"></h1>
+                    <h4>Population</h4>
+                    <h1 id="population"></h1>
+                    <h4>Last Updated</h4>
+                    <h1 id="update"></h1>
+                </div>
+            </div>
+        </div>
+        <div id="news_block"></div>
+    </body>
+</html>
