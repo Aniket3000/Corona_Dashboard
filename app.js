@@ -92,5 +92,5 @@ request2.onload = function(){
 request2.open('GET','https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?' +
 'country=in&' +
 'q=covid&' + 
-'apiKey=0e9720e0c1e4481dbafa5ea1765944da',true);
+'apiKey=Your API KEY',true);
 request2.send();
