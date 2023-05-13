@@ -1,5 +1,5 @@
 # Corona_Dashboard
-This is a sort of Corona Dashboard having split up into two parts.
+This is Corona Dashboard having split up into two parts.
 
 The very first part is the Tracker of the number of cases of Corona which we can search in the search bar provided. All the figures are
 taken from herokuapp API (credits to them).
